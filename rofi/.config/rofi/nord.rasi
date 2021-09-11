@@ -1,7 +1,7 @@
 /**
  * Nordic rofi theme
  * Adapted by undiabler <undiabler@gmail.com>
- *
+ * Source: https://github.com/undiabler/nord-rofi-theme
  * Nord Color palette imported from https://www.nordtheme.com/
  *
  */
@@ -9,10 +9,7 @@
 configuration {
 
 	font: "Envy Code R 12";
-	width: 30;
 	line-margin: 10;
-	lines: 6;
-	columns: 1;
 
     display-ssh:    "";
     display-run:    "";
@@ -56,6 +53,7 @@ window {
     location: center;
     anchor:   center;
     transparency: "screenshot";
+    width: 500px;
     padding: 10px;
     border:  0px;
     border-radius: 6px;
@@ -104,6 +102,8 @@ listview {
     border-color: @nord10;
     border: 0px 1px 1px 1px;
     background-color: rgba(46,52,64,0.9);
+    columns: 1;
+    lines: 6;
     dynamic: false;
 }
 
@@ -119,6 +119,11 @@ element {
 element selected.normal {
 	background-color: @nord7;
 	text-color: #2e3440;
+}
+
+element-text, element-icon {
+	background-color: inherit;
+	text-color:	  inherit;
 }
 
 button {

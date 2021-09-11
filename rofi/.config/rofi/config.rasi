@@ -1,7 +1,7 @@
 configuration {
 /*	modi: "window,run,ssh";*/
 /*	width: 50;*/
-/*	lines: 15;*/
+/*  lines: 15;*/
 /*	columns: 1;*/
 /*	font: "mono 12";*/
 /*	bw: 1;*/
@@ -142,5 +142,6 @@ configuration {
 /*	me-select-entry: "MousePrimary";*/
 /*	me-accept-entry: "MouseDPrimary";*/
 /*	me-accept-custom: "Control+MouseDPrimary";*/
+
+theme: "nord";
 }
-@theme "nord"
