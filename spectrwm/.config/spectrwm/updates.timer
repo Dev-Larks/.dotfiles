@@ -1,0 +1,14 @@
+[UNIT]
+Description="timer for updates.service"
+After=network.target
+
+[Timer]
+
+OnCalendar=*-*-* *:*:00
+
+OnCalendar=*-*-* 6:*:*
+
+Unit=updates.service
+
+[Install]
+WantedBy=timers.target
