@@ -7,7 +7,7 @@ disable_current_tag_swap = false
 
 [[keybind]]
 command = "Execute"
-value = "rofi modi drun -show drun -show-icons"
+value = "rofi modi drun -show drun -show-icons -theme nord"
 modifier = ["modkey"]
 key = "p"
 
