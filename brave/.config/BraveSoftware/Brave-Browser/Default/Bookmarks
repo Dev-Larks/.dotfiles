@@ -1,0 +1,149 @@
+{
+   "checksum": "54ad8bc8cb7abebd6e9c5accb2573d19",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13269061530118894",
+            "guid": "d396cf27-59ed-4b43-abb7-b357072925a7",
+            "id": "5",
+            "name": "Nord",
+            "type": "url",
+            "url": "https://www.nordtheme.com/"
+         }, {
+            "date_added": "13269061550598038",
+            "guid": "66975c18-e18e-4a89-a581-95f15c0c823d",
+            "id": "6",
+            "name": "Files · master · Steve Anelay / Dotfiles · GitLab",
+            "type": "url",
+            "url": "https://gitlab.com/OldTechBloke/dotfiles/-/tree/master"
+         }, {
+            "date_added": "13269061568163041",
+            "guid": "1e04a8d4-836f-4dc2-be3b-aee10529a980",
+            "id": "7",
+            "name": "GitHub - Dev-Larks/Linux-dotfiles: Various Linux application configuration dotfiles",
+            "type": "url",
+            "url": "https://github.com/Dev-Larks/Linux-dotfiles"
+         }, {
+            "date_added": "13269061575991797",
+            "guid": "f41004f9-8626-4011-acd2-0a08c5e33d02",
+            "id": "8",
+            "name": "Choosing a Terminal Colour Scheme - The Gateway to Obsessive Colour Tweaking Syndrome (OCT)",
+            "type": "url",
+            "url": "https://odysee.com/@oldtechbloke:8/choosing-a-terminal-colour-scheme-the:b"
+         }, {
+            "date_added": "13274194165002698",
+            "guid": "c16e5c95-c263-4b1c-b30f-9b5f01b70ad8",
+            "id": "12",
+            "name": "NixOS - NixOS 21.05 manual",
+            "type": "url",
+            "url": "https://nixos.org/manual/nixos/stable/"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13276092435128105",
+                  "guid": "06b7c4e3-7987-4cee-878c-3f6a8526cf06",
+                  "id": "15",
+                  "name": "Lab: Build a Domain Controller with PowerShell | OutsideSys",
+                  "type": "url",
+                  "url": "https://itpro.outsidesys.com/2015/12/13/lab-build-a-domain-controller-with-powershell/"
+               }, {
+                  "date_added": "13276092418584797",
+                  "guid": "348fee57-75f4-47db-bf91-288ee6ee21f5",
+                  "id": "14",
+                  "name": "Guide: How to Install Active Directory in Windows Server 2019 Using PowerShell | Petri IT Knowledgebase",
+                  "type": "url",
+                  "url": "https://petri.com/how-to-install-active-directory-in-windows-server-2019-using-powershell?__cf_chl_jschl_tk__=pmd_FZ5UOQxZxGeUkRqpaMAAt2teIzyhGTWQk2sbUvpQVEg-1631616773-0-gqNtZGzNAiWjcnBszQgl"
+               }, {
+                  "date_added": "13277046643552041",
+                  "guid": "51d3cc7e-de0f-4740-b544-09818c58cb97",
+                  "id": "22",
+                  "name": "Creating a Domain on Windows Server 2016 via PowerShell - Hyper-V Blog",
+                  "type": "url",
+                  "url": "https://www.hyper-v.io/creating-domain-windows-server-2016-via-powershell/"
+               }, {
+                  "date_added": "13277206454774653",
+                  "guid": "313c822e-70d9-482c-b8f9-74adef4d2fac",
+                  "id": "24",
+                  "name": "How to fix \"network 'default' is not active\" error in libvirt",
+                  "type": "url",
+                  "url": "https://www.xmodulo.com/network-default-is-not-active.html"
+               } ],
+               "date_added": "13276092483857677",
+               "date_modified": "13284124451300403",
+               "guid": "324bebf7-979e-4bdf-8bff-aebd1a6a91ad",
+               "id": "17",
+               "name": "AD - Create Domain Controller",
+               "type": "folder"
+            } ],
+            "date_added": "13276092458475311",
+            "date_modified": "13276092483858200",
+            "guid": "225973e4-d598-4ea4-b710-ba83af078b54",
+            "id": "16",
+            "name": "PowerShell",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13273068273479894",
+               "guid": "1ab65a67-9571-4592-b9c4-93ed8f79699f",
+               "id": "10",
+               "name": "How to Install virtio Drivers on KVM-QEMU Windows Virtual Machines – Linux Hint",
+               "type": "url",
+               "url": "https://linuxhint.com/install_virtio_drivers_kvm_qemu_windows_vm/"
+            }, {
+               "date_added": "13276093594901618",
+               "guid": "e8186746-8e70-4056-aefa-4db944ab8cd1",
+               "id": "20",
+               "name": "Virtual Machine Networking (libvirt) | octetz",
+               "type": "url",
+               "url": "https://octetz.com/docs/2020/2020-11-13-vm-networks/"
+            }, {
+               "date_added": "13284124451300403",
+               "guid": "a09bbe79-b238-4287-b292-c3bcb4df824a",
+               "id": "26",
+               "name": "KVM machines for Vagrant on Archlinux | Adaltas",
+               "type": "url",
+               "url": "https://www.adaltas.com/en/2018/09/19/kvm-vagrant-archlinux/"
+            } ],
+            "date_added": "13276092568873946",
+            "date_modified": "13284124538160285",
+            "guid": "c29465e5-5b6a-409d-ac21-5e8af4069ada",
+            "id": "19",
+            "name": "QEMU\\VirtMgr",
+            "type": "folder"
+         }, {
+            "children": [  ],
+            "date_added": "13285029088935698",
+            "date_modified": "13285029088935698",
+            "guid": "f5bccedf-d5d7-42e0-a681-6a90c731f6c0",
+            "id": "28",
+            "name": "Vagrant",
+            "type": "folder"
+         } ],
+         "date_added": "13269050882150518",
+         "date_modified": "13285029088936936",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13269050882150520",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13269050882150527",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
