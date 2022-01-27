@@ -14,5 +14,8 @@ fi
 # Configure screens
 ~/.screenlayout/screenConfig.sh
 
+# Start picom as background process
+picom -b
+
 # launch LeftWM
 exec dbus-launch leftwm
