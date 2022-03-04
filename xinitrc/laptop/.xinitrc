@@ -19,3 +19,9 @@ picom -b
 
 # launch LeftWM
 exec dbus-launch leftwm
+
+# launch dwm bar
+#~/Dev/suckless/dwmscripts/dwmbar.sh
+
+# launch dwm
+#exec dwm
