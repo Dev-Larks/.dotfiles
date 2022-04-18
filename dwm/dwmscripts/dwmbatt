@@ -4,10 +4,31 @@ STATUS=$(cat /sys/class/power_supply/BAT0/status)
 BATT=$(cat /sys/class/power_supply/BAT0/capacity)
 
 if [ "$STATUS" = "Discharging" ]; then
+    if [ $BATT -ge 85 ]; then
+        ICON=" "
+    elif [ $BATT -ge 60 ]; then
+	ICON=" "
+    elif [ $BATT -ge 35 ]; then
+	ICON=" "
+    elif [ $BATT -ge 10 ]; then
+	ICON=" "
+    else 
+	ICON=" "
+    fi
+fi
 
-    ICON="🔋"
-else
-    ICON="⚡"
+if [ "$STATUS" = "Charging" ]; then
+   if [ $BATT -ge 85 ]; then
+        ICON="⚡  "
+    elif [ $BATT -ge 60 ]; then
+        ICON="⚡  "
+    elif [ $BATT -ge 35 ]; then
+        ICON="⚡  "
+    elif [ $BATT -ge 10 ]; then
+        ICON="⚡  "
+    else
+        ICON="⚡  "
+    fi
 fi
 
 echo " $ICON" "$BATT%"
