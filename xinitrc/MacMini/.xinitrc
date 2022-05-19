@@ -52,7 +52,7 @@ $HOME/.screenlayout/displayConfig.sh
 
 #$HOME/.config/spectrwm/updates.sh
 
-nitrogen --restore &
+#nitrogen --restore &
 
 picom -CGb &
 
