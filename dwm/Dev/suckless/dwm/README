@@ -1,0 +1,52 @@
+dwm - dynamic window manager
+============================
+dwm is an extremely fast, small, and dynamic window manager for X.
+
+
+Requirements
+------------
+In order to build dwm you need the Xlib header files.
+
+
+Installation
+------------
+Edit config.mk to match your local setup (dwm is installed into
+the /usr/local namespace by default).
+
+Afterwards enter the following command to build and install dwm (if
+necessary as root):
+
+    sudo make clean install
+
+
+Running dwm
+-----------
+
+Add the below lines to ~/.profile
+
+    export PATH=$PATH:$HOME:$HOME/bin:$HOME/dwmscripts:/usr/local/bin:$HOME/.local/share/dwm
+
+Add the below line to ~/.bash_profile
+
+    [[ -f ~/.profile ]] && . ~/.profile
+
+Place dwm bar script in the below directory
+
+    ~/.local/share/dwm/autostart
+
+Add the following line to your .xinitrc to start dwm using startx:
+
+    # launch dwm bar
+    autostart.sh
+
+    # set wallpaper
+    ~/.fehbg &
+
+    # launch dwm
+    exec dwm
+
+
+Configuration
+-------------
+The configuration of dwm is done by creating a custom config.def.h
+and (re)compiling the source code.

@@ -1,5 +1,5 @@
 {
-   "checksum": "54ad8bc8cb7abebd6e9c5accb2573d19",
+   "checksum": "f8f5f307e49240fd2b02398b8e1754cc",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -60,13 +60,6 @@
                   "name": "Creating a Domain on Windows Server 2016 via PowerShell - Hyper-V Blog",
                   "type": "url",
                   "url": "https://www.hyper-v.io/creating-domain-windows-server-2016-via-powershell/"
-               }, {
-                  "date_added": "13277206454774653",
-                  "guid": "313c822e-70d9-482c-b8f9-74adef4d2fac",
-                  "id": "24",
-                  "name": "How to fix \"network 'default' is not active\" error in libvirt",
-                  "type": "url",
-                  "url": "https://www.xmodulo.com/network-default-is-not-active.html"
                } ],
                "date_added": "13276092483857677",
                "date_modified": "13284124451300403",
@@ -103,24 +96,139 @@
                "name": "KVM machines for Vagrant on Archlinux | Adaltas",
                "type": "url",
                "url": "https://www.adaltas.com/en/2018/09/19/kvm-vagrant-archlinux/"
+            }, {
+               "date_added": "13277206454774653",
+               "guid": "313c822e-70d9-482c-b8f9-74adef4d2fac",
+               "id": "24",
+               "name": "How to fix \"network 'default' is not active\" error in libvirt",
+               "type": "url",
+               "url": "https://www.xmodulo.com/network-default-is-not-active.html"
             } ],
             "date_added": "13276092568873946",
-            "date_modified": "13284124538160285",
+            "date_modified": "13288615414985303",
             "guid": "c29465e5-5b6a-409d-ac21-5e8af4069ada",
             "id": "19",
             "name": "QEMU\\VirtMgr",
             "type": "folder"
          }, {
-            "children": [  ],
+            "children": [ {
+               "date_added": "13288615584338898",
+               "guid": "e2eab475-daf2-4188-ae67-573df4fa1ac6",
+               "id": "41",
+               "name": "Best Practices with Packer and Windows",
+               "type": "url",
+               "url": "https://hodgkins.io/best-practices-with-packer-and-windows"
+            }, {
+               "date_added": "13288616438631349",
+               "guid": "379e6bcb-ec59-40c4-aa98-7bd5a13a792e",
+               "id": "44",
+               "name": "Creating windows base images using Packer and Boxstarter — Hurry Up and Wait!",
+               "type": "url",
+               "url": "http://www.hurryupandwait.io/blog/creating-windows-base-images-for-virtualbox-and-hyper-v-using-packer-boxstarter-and-vagrant"
+            }, {
+               "date_added": "13288616493306759",
+               "guid": "7693c325-8ee6-4f47-bab9-1d9b3a8a4949",
+               "id": "45",
+               "name": "Documentation | Vagrant by HashiCorp",
+               "type": "url",
+               "url": "https://www.vagrantup.com/docs"
+            }, {
+               "date_added": "13288616710000982",
+               "guid": "649d9383-5133-48c5-805b-8835a96d3bab",
+               "id": "46",
+               "name": "Multi-VM Vagrant environment - Vagrant Environment for Testing Ansible Roles",
+               "type": "url",
+               "url": "https://ansible-development.readthedocs.io/en/master/"
+            }, {
+               "date_added": "13288616791869685",
+               "guid": "df00671e-96bd-4ea4-9e66-4314d08bbf3f",
+               "id": "47",
+               "name": "Vagrant Advanced Examples - Ctrl notes",
+               "type": "url",
+               "url": "https://ctrlnotes.com/vagrant-advanced-examples/"
+            }, {
+               "date_added": "13288617041537396",
+               "guid": "1f7e66e3-eeaf-4a39-bf95-3c27907c30dc",
+               "id": "48",
+               "name": "Petr's blog about Linux: Create Windows image using Packer and Ansible and then run it in Vagrant (libvirt)",
+               "type": "url",
+               "url": "https://linux.xvx.cz/2017/10/create-windows-image-using-packer-and.html"
+            } ],
             "date_added": "13285029088935698",
-            "date_modified": "13285029088935698",
+            "date_modified": "13288617115435419",
             "guid": "f5bccedf-d5d7-42e0-a681-6a90c731f6c0",
             "id": "28",
             "name": "Vagrant",
             "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13286253923948630",
+               "guid": "d6498380-332a-48fb-b11b-60fc202f8093",
+               "id": "31",
+               "name": "Arch Linux - Package Search",
+               "type": "url",
+               "url": "https://archlinux.org/packages/"
+            }, {
+               "date_added": "13286249426489393",
+               "guid": "68e699fb-654d-4e42-9625-f1ad8341b8ee",
+               "id": "30",
+               "name": "Index of Arch Packages",
+               "type": "url",
+               "url": "https://archive.archlinux.org/packages/"
+            }, {
+               "date_added": "13288615414985303",
+               "guid": "29077412-1bf7-4bac-8cf3-6e57263c52a5",
+               "id": "40",
+               "name": "ArchWiki",
+               "type": "url",
+               "url": "https://wiki.archlinux.org/"
+            } ],
+            "date_added": "13286773833024654",
+            "date_modified": "13288615615535960",
+            "guid": "c5014529-4e65-4528-9f81-688f0ef3c4f6",
+            "id": "37",
+            "name": "Arch",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13286457241884297",
+               "guid": "f05c75f7-b57d-4beb-af16-f075a798ccf8",
+               "id": "33",
+               "name": "upgrade - apt update error: The repository 'http://us.archive.ubuntu.com/ubuntu saucy Release' does not have a Release file - Stack Overflow",
+               "type": "url",
+               "url": "https://stackoverflow.com/questions/47138074/apt-update-error-the-repository-http-us-archive-ubuntu-com-ubuntu-saucy-rele"
+            }, {
+               "date_added": "13286624450217872",
+               "guid": "c075c7ea-59f6-4555-8018-256ff5b2795f",
+               "id": "35",
+               "name": "Releases - Ubuntu Wiki",
+               "type": "url",
+               "url": "https://wiki.ubuntu.com/Releases"
+            } ],
+            "date_added": "13286773860425607",
+            "date_modified": "13286773864963568",
+            "guid": "a9f77211-e845-46c5-8f06-9888850b20fd",
+            "id": "38",
+            "name": "Ubuntu",
+            "type": "folder"
+         }, {
+            "children": [  ],
+            "date_added": "13288615615535761",
+            "date_modified": "13288615615535761",
+            "guid": "e06581a0-b5a3-472d-9945-5df6b218b081",
+            "id": "42",
+            "name": "Ansible",
+            "type": "folder"
+         }, {
+            "date_added": "13288617115435419",
+            "guid": "c7416c05-2f0c-4a5b-8bf4-c4094be8b62d",
+            "id": "49",
+            "name": "About - Void Linux Handbook",
+            "type": "url",
+            "url": "https://docs.voidlinux.org/"
          } ],
          "date_added": "13269050882150518",
-         "date_modified": "13285029088936936",
+         "date_modified": "13288617126055478",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Bookmarks",

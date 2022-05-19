@@ -18,4 +18,14 @@ fi
 picom -b
 
 # launch LeftWM
-exec dbus-launch leftwm
+#exec dbus-launch leftwm
+
+# launch dwm bar
+#~/Dev/suckless/dwmscripts/dwmbar.sh
+autostart.sh 
+
+# set wallpaper
+~/.fehbg &
+
+# launch dwm
+exec dwm

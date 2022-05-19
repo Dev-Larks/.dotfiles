@@ -16,6 +16,9 @@ alias pacup='sudo pacman -Syu --ignore ruby'
 alias aurup='paru -Sua --upgrademenu'
 alias cleanup='paru -Sc'
 
+# Alias for pavucontrol
+alias vol='pavucontrol'
+
 # Manage libvirtd state
 alias startvirt='systemctl start libvirtd'
 alias stopvirt='systemctl stop --now libvirtd'
