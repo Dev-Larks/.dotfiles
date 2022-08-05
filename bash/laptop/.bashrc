@@ -17,11 +17,15 @@ alias aurup='paru -Sua --upgrademenu'
 alias cleanup='paru -Sc'
 
 # Alias for pavucontrol
-alias vol='pavucontrol'
+alias get-sound='pavucontrol'
 
 # Manage libvirtd state
-alias startvirt='systemctl start libvirtd'
-alias stopvirt='systemctl stop --now libvirtd'
+alias start-libvirt='systemctl start libvirtd'
+alias stop-libvirt='systemctl stop --now libvirtd'
+
+# Manage docker state
+alias start-docker='systemctl start docker'
+alias stop-docker='systemctl stop --now docker'
 
 # Set Vagrant storage location
 #export VAGRANT_HOME=/mnt/data/VMs
