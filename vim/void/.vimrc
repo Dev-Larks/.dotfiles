@@ -10,24 +10,14 @@ set smartindent
 
 " Set line numbering
 set relativenumber
-set nu
+set number
 
 set incsearch
-
-" Lightline config
-set laststatus=2
-set noshowmode
-
-let g:lightline = {
-      \ 'colorscheme': 'nord',
-      \ }
 
 set nocompatible
 filetype plugin on
 syntax on
 
-" Nord scheme Visual mode config
-hi Visual cterm=none ctermbg=0 ctermfg=11
 
 "----------------------------------------
 " Key maps
@@ -39,14 +29,11 @@ hi Visual cterm=none ctermbg=0 ctermfg=11
 "----------------------------------------
 call plug#begin()
 
-" VimWiki
-Plug 'vimwiki/vimwiki'
-
-" Lightline
-Plug 'itchyny/lightline.vim'
-
-" Nord colourscheme
-Plug 'arcticicestudio/nord-vim'
+"source ~/.config/vim/plugins/fzf.vim
+source ~/.config/vim/plugins/lightline.vim
+"source ~/.config/vim/plugins/nerdtree.vim
+source ~/.config/vim/plugins/nord-vim.vim
+source ~/.config/vim/plugins/vimwiki.vim
 
 call plug#end()
 
