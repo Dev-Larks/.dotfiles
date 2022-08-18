@@ -18,6 +18,8 @@ set nocompatible
 filetype plugin on
 syntax on
 
+set spell spelllang=en_au
+
 
 "----------------------------------------
 " Key maps
