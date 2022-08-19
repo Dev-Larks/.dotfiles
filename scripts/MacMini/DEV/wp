@@ -1,0 +1,9 @@
+#!/bin/sh
+
+DIR="/home/$USER/Pictures/Wallpapers"
+
+WP="$(ls $DIR/*.jpg | shuf -n1)"
+
+cat $WP > /home/$USER/.config/wallpaper.jpg
+
+feh --bg-scale /home/$USER/.config/wallpaper.jpg
