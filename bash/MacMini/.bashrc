@@ -9,7 +9,7 @@
 #test -r ~/.dir_colors && eval $(dircolors ~/.dir_colors)
 
 # Aliases for exa output for ls command
-alias ls='exa'
+alias ls='exa --icons'
 alias ll='exa -la'
 alias la='exa -lah'
 
