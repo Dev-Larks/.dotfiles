@@ -1,0 +1,3 @@
+#! /bin/bash
+
+sv status /var/service/* | grep -e 'docker\|containerd'

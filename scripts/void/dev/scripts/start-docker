@@ -1,0 +1,4 @@
+#! /bin/bash
+
+sv start docker
+sv start containerd
