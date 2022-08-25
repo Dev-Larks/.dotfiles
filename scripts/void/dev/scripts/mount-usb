@@ -1,0 +1,7 @@
+#! /bin/bash
+
+# Mount USB with read-write permissions for just my user
+sudo mount -o rw,user,uid=1000,umask=007,exec /dev/sda1 /mnt/usb
+
+
+
