@@ -64,6 +64,8 @@ source ~/.config/vim/plugins/lightline.vim
 "source ~/.config/vim/plugins/nerdtree.vim
 source ~/.config/vim/plugins/nord-vim.vim
 source ~/.config/vim/plugins/vimwiki.vim
+source ~/.config/vim/plugins/emmet-vim.vim
+source ~/.config/vim/plugins/vim-closetag.vim
 
 call plug#end()
 
