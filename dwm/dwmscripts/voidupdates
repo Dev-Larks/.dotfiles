@@ -1,0 +1,4 @@
+#! /bin/bash
+
+updates="$(xbps-install -S -un | wc -l)"
+echo $updates
