@@ -52,7 +52,7 @@ set spell spelllang=en_au
 "----------------------------------------
 
 let mapleader=" "
-
+inoremap <nowait> jj <Esc>
 
 "----------------------------------------
 " Plugins
