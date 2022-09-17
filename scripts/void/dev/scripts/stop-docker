@@ -1,0 +1,4 @@
+#! /bin/bash
+
+sv down docker
+sv down containerd

@@ -1,3 +1,12 @@
+
+"     ____               _               _
+"    |  _ \  _____   __ | |    __ _ _ __| | _____
+"    | | | |/ _ \ \ / / | |   / _` | '__| |/ / __|
+"    | |_| |  __/\ V /  | |___ (_| | |  |   <\__ \
+"    |____/ \___| \_/___|_____\__,_|_|  |_|\_\___/
+"                  |_____|
+
+
 "----------------------------------------
 " General Settings
 " ---------------------------------------
@@ -12,19 +21,38 @@ set smartindent
 set relativenumber
 set number
 
+"Use the system clipboard
+set clipboard+=unamedplus
+
+" Set search behaviour
+set ignorecase
+set smartcase
 set incsearch
 
+" General Settings
 set nocompatible
 filetype plugin on
 syntax on
+
+set splitbelow splitright
 
 set spell spelllang=en_au
 
 
 "----------------------------------------
+" Autocmds
+"----------------------------------------
+
+" Centre screen when entering Insert mode
+" autocmd InsertEnter * norm zz
+"
+"
+"----------------------------------------
 " Key maps
 "----------------------------------------
 
+let mapleader=" "
+inoremap <nowait> jj <Esc>
 
 "----------------------------------------
 " Plugins
@@ -36,6 +64,8 @@ source ~/.config/vim/plugins/lightline.vim
 "source ~/.config/vim/plugins/nerdtree.vim
 source ~/.config/vim/plugins/nord-vim.vim
 source ~/.config/vim/plugins/vimwiki.vim
+source ~/.config/vim/plugins/emmet-vim.vim
+source ~/.config/vim/plugins/vim-closetag.vim
 
 call plug#end()
 
