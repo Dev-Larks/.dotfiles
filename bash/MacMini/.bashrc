@@ -19,6 +19,15 @@ alias disk='df -h'
 # Alias for updates.sh script
 alias checkupdates='sudo pacman -Sy'
 
+# Pacman update management
+alias pacup='sudo pacman -Syu --ignore ruby'
+alias aurup='paru -Sua --upgrademenu'
+alias clean='paru -Sc'
+
+# Use bash-completion, if available
+[[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
+    . /usr/share/bash-completion/bash_completion
+
 # Set prompt in Alacritty
 PS1='[\u@\h \W]\$ '
 export PS1="\[\e[1;33m\][\[\e[m\]\[\e[1;33m\]\u\[\e[m\]\[\e[1;33m\]]\[\e[m\]\[\e[1;34m\][\[\e[m\]\[\e[1;34m\]\w\[\e[m\]\[\e[1;34m\]]\[\e[m\]\[\e[1;31m\]-\[\e[m\]\[\e[1;31m\]>\[\e[m\] "
