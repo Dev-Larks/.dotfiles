@@ -8,6 +8,9 @@
 #alias ls='ls --color=auto'
 #test -r ~/.dir_colors && eval $(dircolors ~/.dir_colors)
 
+# Set sudoedit default editor variable
+export EDITOR="vim"
+
 # Aliases for exa output for ls command
 alias ls='exa --icons'
 alias ll='exa -la'
