@@ -25,7 +25,16 @@ alias checkupdates='sudo pacman -Sy'
 # Pacman update management
 alias pacup='sudo pacman -Syu --ignore ruby'
 alias aurup='paru -Sua --upgrademenu'
-alias clean='paru -Sc'
+alias cleancache='paru -Sc'
+alias cleanorphans='pacman -Qtdq | sudo pacman -Rns'
+
+# Git management
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit -m'
+alias gpl='git pull'
+alias gp='git push'
+alias gd='git diff'
 
 # Use bash-completion, if available
 [[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
