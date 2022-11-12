@@ -25,7 +25,7 @@ alias checkupdates='sudo pacman -Sy'
 # Pacman update management
 alias pacup='sudo pacman -Syu --ignore ruby'
 alias aurup='paru -Sua --upgrademenu'
-alias cleancache='paru -Sc'
+alias cleancache='paru -Sc && paru -Sccd'
 alias cleanorphans='pacman -Qtdq | sudo pacman -Rns'
 
 # Git management
