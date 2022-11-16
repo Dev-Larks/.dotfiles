@@ -8,6 +8,9 @@
 #alias ls='ls --color=auto'
 #test -r ~/.dir_colors && eval $(dircolors ~/.dir_colors)
 
+# Set sudoedit default editor variable
+export EDITOR="vim"
+
 # Aliases for exa output for ls command
 alias ls='exa --icons'
 alias ll='exa -la'
@@ -18,6 +21,24 @@ alias disk='df -h'
 
 # Alias for updates.sh script
 alias checkupdates='sudo pacman -Sy'
+
+# Pacman update management
+alias pacup='sudo pacman -Syu --ignore ruby'
+alias aurup='paru -Sua --upgrademenu'
+alias cleancache='paru -Sc && paru -Sccd'
+alias cleanorphans='pacman -Qtdq | sudo pacman -Rns'
+
+# Git management
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit -m'
+alias gpl='git pull'
+alias gp='git push'
+alias gd='git diff'
+
+# Use bash-completion, if available
+[[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
+    . /usr/share/bash-completion/bash_completion
 
 # Set prompt in Alacritty
 PS1='[\u@\h \W]\$ '
