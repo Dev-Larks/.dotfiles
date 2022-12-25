@@ -14,6 +14,10 @@ alias ls='exa --icons'
 alias ll='exa -la'
 alias la='exa -lah'
 
+# Alias for managing git ssh access
+alias ssha='eval $(ssh-agent) && ssh-add'
+
+# Aliases for managing hardware
 alias set-LANdown='sudo ip link set enp60s0u1u1 down'
 alias set-LANup='sudo ip link set enp60s0u1u1 up'
 
