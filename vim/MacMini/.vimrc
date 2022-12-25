@@ -22,7 +22,8 @@ set relativenumber
 set number
 
 "Use the system clipboard
-set clipboard+=unamedplus
+"set clipboard+=unamedplus
+set clipboard=unamed
 
 " Set search behaviour
 set ignorecase
