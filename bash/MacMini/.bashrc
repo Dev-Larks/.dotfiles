@@ -53,3 +53,6 @@ alias gpl='git pull'
 alias gp='git push'
 alias gd='git diff'
 
+# Alias for managing git ssh access
+alias ssha='eval $(ssh-agent) && ssh-add'
+
