@@ -24,3 +24,7 @@ alias set-LANup='sudo ip link set enp60s0u1u1 up'
 alias set-volumeup='amixer set Master 10%+'
 alias set-volumedown='amixer set Master 10%-'
 alias mute-audio='amixer -q sset Master toggle'
+
+# Aliases for managing onedrive
+alias onedrive-up='onedrive --synchronize --local-first'
+alias onedrive-down='onedrive --synchronize --download-only'
