@@ -17,6 +17,14 @@ alias la='exa -lah'
 # Alias for managing git ssh access
 alias ssha='eval $(ssh-agent) && ssh-add'
 
+# Git management
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit -m'
+alias gpl='git pull'
+alias gp='git push'
+alias gd='git diff'
+
 # Aliases for managing hardware
 alias set-LANdown='sudo ip link set enp60s0u1u1 down'
 alias set-LANup='sudo ip link set enp60s0u1u1 up'
