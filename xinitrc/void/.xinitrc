@@ -50,4 +50,6 @@ fi
 
 autostart
 
+wp
+
 exec dwm
