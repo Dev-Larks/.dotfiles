@@ -21,6 +21,9 @@ set smartindent
 set relativenumber
 set number
 
+" Set scroll behaviour
+set scrolloff=8
+
 "Use the system clipboard
 set clipboard=unnamedplus
 
