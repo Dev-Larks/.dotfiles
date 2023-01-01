@@ -69,7 +69,7 @@ source ~/.config/vim/plugins/nord-vim.vim
 source ~/.config/vim/plugins/vimwiki.vim
 "source ~/.config/vim/plugins/emmet-vim.vim
 "source ~/.config/vim/plugins/vim-closetag.vim
-
+source ~/.config/vim/plugins/vim-css-color.vim
 call plug#end()
 
 colorscheme nord
