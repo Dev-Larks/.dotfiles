@@ -9,6 +9,15 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 export PS1="\[\e[1;33m\][\[\e[m\]\[\e[1;33m\]\u\[\e[m\]\[\e[1;33m\]]\[\e[m\]\[\e[1;34m\][\[\e[m\]\[\e[1;34m\]\w\[\e[m\]\[\e[1;34m\]]\[\e[m\]\[\e[1;31m\]-\[\e[m\]\[\e[1;31m\]>\[\e[m\] "
 
+
+# Dev_Larks terminal banner
+colourscript
+cat $HOME/dev/scripts/banner.txt
+colourscript
+
+alias update='sudo xbps-install -Su'
+alias cleanup='sudo xbps-remove -O'
+
 # Aliases for exa output for ls command
 alias ls='exa --icons'
 alias ll='exa -la'
