@@ -21,6 +21,9 @@ set smartindent
 set relativenumber
 set number
 
+" Set scroll behaviour
+set scrolloff=8
+
 "Use the system clipboard
 set clipboard=unnamedplus
 
@@ -66,7 +69,7 @@ source ~/.config/vim/plugins/nord-vim.vim
 source ~/.config/vim/plugins/vimwiki.vim
 "source ~/.config/vim/plugins/emmet-vim.vim
 "source ~/.config/vim/plugins/vim-closetag.vim
-
+source ~/.config/vim/plugins/vim-css-color.vim
 call plug#end()
 
 colorscheme nord
