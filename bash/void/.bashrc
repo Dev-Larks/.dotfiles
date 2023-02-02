@@ -38,10 +38,18 @@ alias gd='git diff'
 alias set-LANdown='sudo ip link set enp60s0u1u1 down'
 alias set-LANup='sudo ip link set enp60s0u1u1 up'
 
+# Onboard Sound
 alias set-volumeup='amixer set Master 10%+'
 alias set-volumedown='amixer set Master 10%-'
 alias mute-audio='amixer -q sset Master toggle'
 
+# Dock Sound - PCM
+alias set-pcmvolume='amixer sset Headset 30%'
+
 # Aliases for managing onedrive
 alias onedrive-up='onedrive --synchronize --local-first'
 alias onedrive-down='onedrive --synchronize --download-only'
+
+# >>>> Vagrant command completion (start)
+. /usr/lib/vagrant/gems/vagrant-2.3.4/contrib/bash/completion.sh
+# <<<<  Vagrant command completion (end)
