@@ -50,6 +50,7 @@ alias set-pcmvolume='amixer sset Headset 30%'
 alias onedrive-up='onedrive --synchronize --local-first'
 alias onedrive-down='onedrive --synchronize --download-only'
 
+
 # >>>> Vagrant command completion (start)
-. /usr/lib/vagrant/gems/vagrant-2.3.4/contrib/bash/completion.sh
+. /usr/lib/vagrant/gems/vagrant-2.4.0/contrib/bash/completion.sh
 # <<<<  Vagrant command completion (end)
