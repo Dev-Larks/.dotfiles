@@ -50,7 +50,13 @@ alias set-pcmvolume='amixer sset Headset 30%'
 alias onedrive-up='onedrive --synchronize --local-first'
 alias onedrive-down='onedrive --synchronize --download-only'
 
+# Alias for launching Jekyll development environment
+alias start-jekyll='docker run -e LANG=C.UTF-8 -e LC_ALL=C.UTF-8 -it --volume "$(pwd):/dev-larks.github.io" -w /dev-larks.github.io  -p 8080:4000 dev-larks.github.io'
+#alias start-jekyll='docker run -it --volume "($pwd):/dev-larks.github.io" -w /dev-larks.github.io -p 8080:4000 dev-larks.github.io'
 
 # >>>> Vagrant command completion (start)
 . /usr/lib/vagrant/gems/vagrant-2.4.0/contrib/bash/completion.sh
 # <<<<  Vagrant command completion (end)
+#
+# Mcfly bash command history
+eval "$(mcfly init bash)"
