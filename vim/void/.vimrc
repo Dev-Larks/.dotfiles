@@ -46,7 +46,9 @@ set spell spelllang=en_au
 " Centre screen when entering Insert mode
 " autocmd InsertEnter * norm zz
 "
-"
+" Set yaml file indentation
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+
 "----------------------------------------
 " Key maps
 "----------------------------------------
@@ -66,6 +68,7 @@ source ~/.config/vim/plugins/nord-vim.vim
 source ~/.config/vim/plugins/vimwiki.vim
 source ~/.config/vim/plugins/emmet-vim.vim
 source ~/.config/vim/plugins/vim-closetag.vim
+source ~/.config/vim/plugins/indentLine.vim
 
 call plug#end()
 
