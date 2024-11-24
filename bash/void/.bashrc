@@ -17,11 +17,11 @@ colourscript
 
 # Void package management
 alias update='sudo xbps-install -Su'
-alias cleanup='sudo xbps-remove -O'
+alias cleanup='sudo xbps-remove -Oo; sudo vkpurge rm all'
 
 
 # Hyprland start alias
-alias hyprland='dbus-run-session Hyprland'
+alias starth='dbus-run-session Hyprland'
 
 # Aliases for exa output for ls command
 alias ls='exa --icons'
