@@ -15,8 +15,13 @@ colourscript
 cat $HOME/dev/scripts/banner.txt
 colourscript
 
+# Void package management
 alias update='sudo xbps-install -Su'
 alias cleanup='sudo xbps-remove -O'
+
+
+# Hyprland start alias
+alias hyprland='dbus-run-session Hyprland'
 
 # Aliases for exa output for ls command
 alias ls='exa --icons'
