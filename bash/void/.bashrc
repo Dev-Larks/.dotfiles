@@ -61,6 +61,9 @@ alias start-jekyll='docker run -e LANG=C.UTF-8 -e LC_ALL=C.UTF-8 -it --volume "$
 
 # >>>> Vagrant command completion (start)
 . /usr/lib/vagrant/gems/vagrant-2.4.1/contrib/bash/completion.sh
+
+# Run virsh without the need to use sudo
+alias virsh="virsh -c qemu:///system"
 # <<<<  Vagrant command completion (end)
 #
 # Mcfly bash command history
